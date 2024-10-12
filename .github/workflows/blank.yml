@@ -1,0 +1,5 @@
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  build:
+    uses: specialagentsav/zmk-config-zen-sav/build-user-config-2.yml@corne-ish-zen-v2
