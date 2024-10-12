@@ -43,7 +43,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB       &mt N1 KP_N1        &mt N2 KP_N2        &mt N3 KP_N3        &kp EQUAL           &kp ASTERISK     &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp N8          &kp N9           &kp N0             &kp BSPC
+&kp TAB       &mt N1 KP_N1        &mt N2 KP_N2        &mt N3 KP_N3        &kp EQUAL           &kp ASTERISK     &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans          &trans           &trans             &kp BSPC
 &kp LEFT_ALT  &mt NUMBER_4 KP_N4  &mt NUMBER_5 KP_N5  &mt NUMBER_6 KP_N6  &kp MINUS           &kp SLASH        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp UP          &rgb_ug RGB_EFR  &rgb_ug RGB_EFF    &trans
 &kp LSHFT     &mt NUMBER_7 KP_N7  &mt NUMBER_8 KP_N8  &mt NUMBER_9 KP_N9  &mt NUMBER_0 KP_N0  &kp BACKSLASH    &rgb_ug RGB_TOG   &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW  &ext_power EP_TOG  &tog 4
                                                       &kp LGUI            &trans              &kp SPACE        &kp RET           &trans             &kp RALT
@@ -69,10 +69,10 @@
 
         Fn_bt {
             bindings = <
-&kp F1      &kp F2  &kp F3  &kp F4   &kp F5   &kp F6     &bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 2  &trans  &trans  &trans
-&kp LG(F7)  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12    &bt BT_CLR_ALL  &bt BT_SEL 1  &bt BT_SEL 3  &trans  &trans  &trans
-&trans      &trans  &trans  &trans   &trans   &trans     &trans          &trans        &trans        &trans  &trans  &trans
-                            &trans   &trans   &trans     &trans          &trans        &trans
+&kp F1      &kp F2  &kp F3  &kp F4     &kp F5    &kp F6       &bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 2  &trans  &trans  &trans
+&kp LG(F7)  &kp F8  &kp F9  &kp F10    &kp F11   &kp F12      &bt BT_CLR_ALL  &bt BT_SEL 1  &bt BT_SEL 3  &trans  &trans  &trans
+&trans      &trans  &trans  &trans     &trans    &kp LSHFT    &kp LGUI        &kp RSHFT     &trans        &trans  &trans  &trans
+                            &kp LCTRL  &kp LALT  &trans       &kp ENTER       &kp RALT      &kp RCTRL
             >;
         };
 
